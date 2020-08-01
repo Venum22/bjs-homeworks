@@ -11,7 +11,7 @@ function averageMark(a, g, p) {
     let algebra = a;
     let geography = g;
     let physics = p;
-    let aver = (algebra*geography*physics) /3;
+    let aver = (algebra+geography+physics) /3;
 	return aver// ваш ответ;
 }
 
@@ -19,7 +19,7 @@ function sayHello(userName) {
 	
     // реализуйте здесь задание №2
     let myName = userName;
-    let message = "Привет, мир! Меня зовут" + "<" + myName + ">";
+    let message = `Привет, мир! Меня зовут ${myName}`;
 	return message// ваш ответ;
 
 }
